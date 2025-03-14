@@ -6,8 +6,8 @@ library(plotly)
 library(DT)
 
 # Source external R scripts
-source("Question_1.R", local = TRUE)  # Loads cleaned & prepped data
-source("Question_2.R", local = TRUE)  # Loads visualization functions
+source("Get_The_Data.R", local = TRUE)  # Loads cleaned & prepped data
+source("Get_The_Plots.R", local = TRUE)  # Loads visualization functions
 
 # Define UI
 ui <- dashboardPage(
