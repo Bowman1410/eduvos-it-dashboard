@@ -1,5 +1,5 @@
 # Code Documentation 
-## 1. Question_1.R ##
+## 1. Get_The_Data ##
    * Load libraries
      1. `library(readr)`: For reading CSV files.
      2. `library(dplyr)`: For data manipulation.
@@ -35,7 +35,7 @@ df_top_campuses <- clean_df %>% filter(Campus %in% top_campuses)`
    * Save Cleaned Data:
       `saveRDS(df_top_campuses, "df_top_campuses.rds")`
 
-## 2. Question_2.R ##
+## 2. Get_The_Plots ##
    * `Count_tools` = Counts the occurrences of tools in a specified column.
    * `plot_tools` = Creates a plot of the top plot tools
    * `saveRDS(list(plot_tools, plot_industry, plot_roles, plot_employment), "plots.rds")` = Saves the plots for use in the Shiny Application
